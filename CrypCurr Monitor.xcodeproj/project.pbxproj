@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		884A8D9E20349AE10048EBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884A8D9D20349AE10048EBE0 /* AppDelegate.swift */; };
-		884A8DA020349AE10048EBE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884A8D9F20349AE10048EBE0 /* ViewController.swift */; };
 		884A8DA320349AE10048EBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884A8DA120349AE10048EBE0 /* Main.storyboard */; };
 		884A8DA520349AE10048EBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884A8DA420349AE10048EBE0 /* Assets.xcassets */; };
 		884A8DA820349AE10048EBE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884A8DA620349AE10048EBE0 /* LaunchScreen.storyboard */; };
+		88EEC2FB203B34F2004DE500 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEC2FA203B34F2004DE500 /* Currency.swift */; };
+		88EEC2FD203B3740004DE500 /* CrypCurrTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEC2FC203B3740004DE500 /* CrypCurrTableViewCell.swift */; };
+		88EEC2FF203B3764004DE500 /* CrypCurrTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEC2FE203B3764004DE500 /* CrypCurrTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		884A8D9A20349AE10048EBE0 /* CrypCurr Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrypCurr Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		884A8D9D20349AE10048EBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		884A8D9F20349AE10048EBE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		884A8DA220349AE10048EBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		884A8DA420349AE10048EBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884A8DA720349AE10048EBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		884A8DA920349AE10048EBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EEC2FA203B34F2004DE500 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		88EEC2FC203B3740004DE500 /* CrypCurrTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypCurrTableViewCell.swift; sourceTree = "<group>"; };
+		88EEC2FE203B3764004DE500 /* CrypCurrTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypCurrTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		884A8D9C20349AE10048EBE0 /* CrypCurr Monitor */ = {
 			isa = PBXGroup;
 			children = (
-				884A8D9D20349AE10048EBE0 /* AppDelegate.swift */,
-				884A8D9F20349AE10048EBE0 /* ViewController.swift */,
 				884A8DA120349AE10048EBE0 /* Main.storyboard */,
+				884A8D9D20349AE10048EBE0 /* AppDelegate.swift */,
 				884A8DA420349AE10048EBE0 /* Assets.xcassets */,
 				884A8DA620349AE10048EBE0 /* LaunchScreen.storyboard */,
 				884A8DA920349AE10048EBE0 /* Info.plist */,
+				88EEC2FE203B3764004DE500 /* CrypCurrTableViewController.swift */,
+				88EEC2FC203B3740004DE500 /* CrypCurrTableViewCell.swift */,
+				88EEC2FA203B34F2004DE500 /* Currency.swift */,
 			);
 			path = "CrypCurr Monitor";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884A8DA020349AE10048EBE0 /* ViewController.swift in Sources */,
+				88EEC2FB203B34F2004DE500 /* Currency.swift in Sources */,
 				884A8D9E20349AE10048EBE0 /* AppDelegate.swift in Sources */,
+				88EEC2FD203B3740004DE500 /* CrypCurrTableViewCell.swift in Sources */,
+				88EEC2FF203B3764004DE500 /* CrypCurrTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

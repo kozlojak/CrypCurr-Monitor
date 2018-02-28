@@ -10,13 +10,15 @@ import Foundation
 
 class Currency {
     
-    var name: String = ""
-    var symbol: String = ""
+    var name: String?
+    var symbol: String?
     var price: Float = 0
+    var change24h: Float = 0
     
-    init(name: String, symbol: String, price: Float) {
+    init(name: String, symbol: String, price: Float, change24h: Float) {
         self.name = name
         self.symbol = symbol
         self.price = price
+        self.change24h = change24h
     }
 }

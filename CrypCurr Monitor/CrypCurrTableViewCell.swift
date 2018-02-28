@@ -14,6 +14,8 @@ class CrypCurrTableViewCell: UITableViewCell {
     @IBOutlet weak var symbolLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var rankLabel: UILabel!
+    @IBOutlet weak var change24hLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
